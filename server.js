@@ -171,4 +171,6 @@ app.post('/getImage', async (req, res) => {
 });
 
 const httpServer = http.createServer(options, app);
-httpServer.listen(process.env.PORT || 3000);
+let listener = httpServer.listen((process.env.PORT || 3000), () => {
+    console.log("Your app is listening on port " + listener.address().port);
+});
