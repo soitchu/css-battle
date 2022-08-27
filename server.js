@@ -20,6 +20,8 @@ app.use(express.static(__dirname + '/client'));
 
 async function ini() {
     browser = await puppeteer.launch({ args: [] });
+    //// Uncomment the following piece of code if you're running it on Glitch.me
+    // browser = await puppeteer.launch({ args: ["--no-sandbox"] });
 }
 
 ini();
