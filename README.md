@@ -1,5 +1,5 @@
 # Demo
-https://dear-terrific-nemophila.glitch.me/
+https://soitchu.com/battle/
 
 # How to install
 
